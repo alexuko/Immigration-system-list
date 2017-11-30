@@ -63,7 +63,7 @@ public void addPerson(){
 	System.out.println("Id: "		 + human.getId() +
 					   "\nName: "  	 + human.getFirstName() + 
 					   "\nSurname: " + human.getLastName()+
-					   "\nDate: "	 + human.getDate()+
+					   "\nDate: "	 + human.getDateOfArrival()+
 					   "\nPassport: "+ human.getPassport()
 					   );
 	optionSelection();
